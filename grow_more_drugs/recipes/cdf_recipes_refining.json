@@ -2,7 +2,6 @@
   {
     "type": "recipe",
     "result": "cdf_coca_raw",
-    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_DRUGS",
     "skill_used": "survival",
@@ -10,30 +9,22 @@
     "charges": 500,
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "gmd_coca_leaves_bundle", 1 ] ] ],
-    "byproduct_group": [{ "item": "cdf_seed_coca", "count": [ 1, 5 ] }]
+    "components": [ [ [ "gmd_coca_leaves_bundle", 1 ] ] ]
   },
   {
     "type": "recipe",
     "result": "gmd_pure_coke",
-    "activity_level": "NO_EXERCISE",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_DRUGS",
-    "skill_used": "chemistry",
+    "skill_used": "cooking",
     "difficulty": 4,
     "time": "6 h",
     "book_learn": [ [ "adv_chemistry", 4 ], [ "recipe_labchem", 4 ], [ "textbook_anarch", 4 ] ],
     "batch_time_factors": [ 30, 3 ],
-    "proficiencies": [
-      { "proficiency": "prof_intro_chemistry" },
-      { "proficiency": "prof_organic_chemistry" },
-      { "proficiency": "prof_pharmaceutical" }
-    ],
     "qualities": [
       { "id": "CHEM", "level": 2 },
       { "id": "CONTAIN", "level": 1 },
-      { "id": "SEPARATE", "level": 1 },
-      { "id": "SIEVE", "level": 1 }
+      { "id": "SEPARATE", "level": 1 }
     ],
     "components": [
       [ [ "cdf_coca_raw", 300 ] ],
@@ -46,11 +37,10 @@
   {
     "type": "recipe",
     "result": "coke",
-    "activity_level": "NO_EXERCISE",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_DRUGS",
-    "skill_used": "chemistry",
-    "difficulty": 3,
+    "skill_used": "cooking",
+    "difficulty": 4,
     "time": "7 h",
     "book_learn": [
       [ "textbook_anarch", 2 ],
@@ -60,11 +50,6 @@
       [ "recipe_labchem", 4 ]
     ],
     "batch_time_factors": [ 30, 3 ],
-    "proficiencies": [
-      { "proficiency": "prof_intro_chemistry" },
-      { "proficiency": "prof_organic_chemistry" },
-      { "proficiency": "prof_pharmaceutical" }
-    ],
     "qualities": [ { "id": "CHEM", "level": 1 }, { "id": "CONTAIN", "level": 1 }, { "id": "SIEVE", "level": 1 } ],
     "components": [
       [ [ "cdf_coca_raw", 400 ] ],
